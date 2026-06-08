@@ -1,0 +1,25 @@
+# ---- Virtual environments (machine-specific, never commit) ----
+.venv/
+venv/
+env/
+
+# ---- IDE / editor ----
+.idea/
+.vscode/
+
+# ---- Python caches ----
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# ---- Generated test outputs & reports (recreated every run) ----
+allure-results/
+allure-report/
+logs/
+videos/
+screenshot/
+trace.zip
+
+# ---- OS junk ----
+Thumbs.db
+.DS_Store
